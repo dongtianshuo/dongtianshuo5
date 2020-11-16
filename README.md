@@ -25,7 +25,8 @@
 2.用户依次输入的班级，姓名，学号，性别，然后通过set（）将用户依次输入的班级，姓名，学号，性别存入到i1中，以便将学生信息存入文本文件中；  
 3.我使用了BufferedReader方法进行文本文件B.txt的读入BufferedReader in = new BufferedReader(new FileReader("E:\\B.txt"));然后创建了一个String类型的str并且使用readLine方法将文本文件B.txt中的内容储存到str当中，这样得到一个字符串；  
 4.在进行标点符号的添加中，我首先使用replaceAll方法每隔7个字符加入一个“，”号str = str.replaceAll(regex,"$1，");，然后使用replace方法将每隔第15位的“，”转变为“。”；并且回车将古诗词对其；  
-5.
+5.在进行字符串的输出时，我使用FileWriter方法将字符串和学生信息输入到A.txt中，使用flush()方法将字符串输出，使用valueOf方法返回字符串处理后的值和学生的信息；  
+6.
 
 # 核心代码
 ```
@@ -63,4 +64,4 @@ while ((index = str.indexOf(r1, index)) != -1) {
 # 结果截图
 ![实验结果截图](https://github.com/dongtianshuo/dongtianshuo5/blob/main/FK4NX2YL%24VZSMZFUQ%7BESSD9.png)
 # 实验总结
-此次实验我进一步了解异常的使用方法，并在程序中根据输入情况做异常处理；基本掌握了字符串String及其方法的使用、掌握文件的读取/写入方法；进一步掌握并使用Object根类的toString（）方法,应用在相关对象的信息输出中。
+此次实验我进一步了解异常的使用方法，进一步掌握并使用Object根类的toString（）方法,应用在相关对象的信息输出中并在程序中根据输入情况做异常处理；基本掌握了字符串String及其方法的使用、掌握文件的读取/写入方法；
