@@ -19,9 +19,14 @@
 # 实验过程
 ### Student学生类
 1.在Student类中我定义了4个变量：String类型班级c，String类型名字name，int类型学号number，String类型性别gender；  
-2.使用set（）方法方便返回对于的值，使用toString（）方法,返回相关对象的信息输出；  
+2.使用set（）方法方便返回对应的值，使用toString（）方法,返回相关对象的信息输出；  
 ### Test主类
-1.
+1.我先使用Scanner方法来进行交互输入，并且设置了一个Student对象i1；  
+2.用户依次输入的班级，姓名，学号，性别，然后通过set（）将用户依次输入的班级，姓名，学号，性别存入到i1中，以便将学生信息存入文本文件中；  
+3.我使用了BufferedReader方法进行文本文件B.txt的读入BufferedReader in = new BufferedReader(new FileReader("E:\\B.txt"));然后创建了一个String类型的str并且使用readLine方法将文本文件B.txt中的内容储存到str当中，这样得到一个字符串；  
+4.在进行标点符号的添加中，我首先使用replaceAll方法每隔7个字符加入一个“，”号str = str.replaceAll(regex,"$1，");，然后使用replace方法将每隔第15位的“，”转变为“。”；并且回车将古诗词对其；  
+5.
+
 # 核心代码
 ```
 BufferedReader in = new BufferedReader(new FileReader("E:\\B.txt"));
