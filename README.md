@@ -52,5 +52,5 @@ while ((index = str.indexOf(r1, index)) != -1) {
 }
 ```
 # 结果截图
-
+![实验结果截图](https://github.com/dongtianshuo/dongtianshuo5/blob/main/FK4NX2YL%24VZSMZFUQ%7BESSD9.png)
 # 实验总结
