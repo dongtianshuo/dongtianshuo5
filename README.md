@@ -17,7 +17,11 @@
   3.输入的文本来源于文本文件B读取，把处理好的结果写入到文本文件A  
   4.考虑操作中可能出现的异常，在程序中设计异常处理程序  
 # 实验过程
-
+### Student学生类
+1.在Student类中我定义了4个变量：String类型班级c，String类型名字name，int类型学号number，String类型性别gender；  
+2.使用set（）方法方便返回对于的值，使用toString（）方法,返回相关对象的信息输出；  
+### Test主类
+1.
 # 核心代码
 ```
 BufferedReader in = new BufferedReader(new FileReader("E:\\B.txt"));
@@ -54,3 +58,4 @@ while ((index = str.indexOf(r1, index)) != -1) {
 # 结果截图
 ![实验结果截图](https://github.com/dongtianshuo/dongtianshuo5/blob/main/FK4NX2YL%24VZSMZFUQ%7BESSD9.png)
 # 实验总结
+此次实验我进一步了解异常的使用方法，并在程序中根据输入情况做异常处理；基本掌握了字符串String及其方法的使用、掌握文件的读取/写入方法；进一步掌握并使用Object根类的toString（）方法,应用在相关对象的信息输出中。
