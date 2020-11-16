@@ -20,10 +20,36 @@
 
 # 核心代码
 ```
-
+BufferedReader in = new BufferedReader(new FileReader("E:\\B.txt"));
+String str = in.readLine();
 ```
 ```
-
+String regex = "(.{7})";
+str = str.replaceAll(regex,"$1，");
+StringBuffer sb = new StringBuffer(str);
+for (int i =15;i<289;i=i+17) {
+    sb.replace(i, i + 1, "。\n");
+}
+```
+```
+Scanner h = new Scanner(System.in);
+String h1 = h.nextLine();
+int a=0;
+for (int i = 0; i < str.length(); i++) {
+    if(Objects.equals(ai[i], h1)){
+        a++;
+    }
+}
+```
+```
+Scanner r = new Scanner(System.in);
+String r1 = r.nextLine();
+int count = 0;
+int index = 0;
+while ((index = str.indexOf(r1, index)) != -1) {
+    index = index + r1.length();
+    count++;
+}
 ```
 # 结果截图
 
