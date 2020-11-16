@@ -26,8 +26,9 @@
 3.我使用了BufferedReader方法进行文本文件B.txt的读入BufferedReader in = new BufferedReader(new FileReader("E:\\B.txt"));然后创建了一个String类型的str并且使用readLine方法将文本文件B.txt中的内容储存到str当中，这样得到一个字符串；  
 4.在进行标点符号的添加中，我首先使用replaceAll方法每隔7个字符加入一个“，”号str = str.replaceAll(regex,"$1，");，然后使用replace方法将每隔第15位的“，”转变为“。”；并且回车将古诗词对其；  
 5.在进行字符串的输出时，我使用FileWriter方法将字符串和学生信息输入到A.txt中，使用flush()方法将字符串输出，使用valueOf方法返回字符串处理后的值和学生的信息；  
-6.
-
+6.然后进行查询系统，首先我运用了for（）循环进行循环查询系统，在for（）循环中运用了switch（）方法进行判断用户查询字，词或者选择结束，我设定为1为查询字，2为查询词，3为结束；用户选择查询字时首先用户输入一个String字符，然后运用for（）循环进行字符串中的字符和用户输入的字符是否一致，在这里我运用final 类 Objects中的equals进行判断，并且设置一个int类的变量a，并且初始值设为0，每当查到一致时，a的值会加一，循环整个字符串后输出a的值；  
+7.在进行词的查询时，首先让用户输入一个想要查询的词，然后通过indexOf（）方法进行在字符串中某一字符串的查找查找过程与查找字的类似，并且设置一个int变量count，并且初始值设为0，每当查到一致时，count的值会加一，循环整个字符串后输出count的值；用户输入3后会退出查询系统；    
+8.在进行异常处理结构中，我在交互式输入学生信息后面加入了一个try（）
 # 核心代码
 ```
 BufferedReader in = new BufferedReader(new FileReader("E:\\B.txt"));
