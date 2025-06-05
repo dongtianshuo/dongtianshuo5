@@ -10,31 +10,31 @@
         <mxCell id="aTH7eMplYvIqbtC05RKQ-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aTH7eMplYvIqbtC05RKQ-3" target="aTH7eMplYvIqbtC05RKQ-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-3" value="A[用户自然语言查询]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-3" value="&lt;b&gt;A[用户自然语言查询]&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="38" y="170" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-4" value="B(年龄智能体)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-4" value="&lt;b&gt;B(年龄智能体)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="158" y="170" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aTH7eMplYvIqbtC05RKQ-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aTH7eMplYvIqbtC05RKQ-6" target="aTH7eMplYvIqbtC05RKQ-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-6" value="A[用户自然语言查询]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-6" value="&lt;b&gt;A[用户自然语言查询]&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="38" y="240" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-7" value="C(职务层次智能体)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-7" value="&lt;b&gt;C(职务层次智能体)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="158" y="240" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aTH7eMplYvIqbtC05RKQ-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aTH7eMplYvIqbtC05RKQ-9" target="aTH7eMplYvIqbtC05RKQ-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-9" value="A[用户自然语言查询]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-9" value="&lt;b&gt;A[用户自然语言查询]&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="38" y="347" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-10" value="Z(其他智能体)" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-10" value="&lt;b&gt;Z(其他智能体)&lt;/b&gt;" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="158" y="347" width="70" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-13" value="分治策略" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;分治策略&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="50.5" y="90" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aTH7eMplYvIqbtC05RKQ-14" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6666FF;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
@@ -52,7 +52,7 @@
         <mxCell id="aTH7eMplYvIqbtC05RKQ-17" value="X[查漏补缺智能体]" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="342" y="363" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-19" value="两级保障机制" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-19" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;两级保障机制&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="334" y="90" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aTH7eMplYvIqbtC05RKQ-20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#6666FF;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
@@ -70,8 +70,8 @@
         <mxCell id="aTH7eMplYvIqbtC05RKQ-24" value="API网关" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="621" y="357" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="aTH7eMplYvIqbtC05RKQ-25" value="FastGPT低代码AI开发平台" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="616" y="90" width="165" height="40" as="geometry" />
+        <mxCell id="aTH7eMplYvIqbtC05RKQ-25" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;FastGPT低代码AI开发平台&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="613" y="90" width="174" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QfqMoneOolFX8Ff7_0rI-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
